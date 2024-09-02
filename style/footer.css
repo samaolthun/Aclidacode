@@ -1,0 +1,98 @@
+.container > footer{
+   width: 100%;
+   height: 110vh;
+   background-color: rgb(86, 107, 126);
+   font-family: "Fira Sans", sans-serif; 
+   color: white;
+}
+.container > footer > .brach-card{
+    width: 100%;
+    height: 35%;
+    background-color: blue;
+    display: flex;
+}
+.container > footer > .brach-card > .card{
+    width: 25%;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid gainsboro;
+    padding: 35px;
+}
+.container > footer > .brach-card > .card > img{
+    margin: 5px 0 20px 0;
+}
+.container > footer > .brach-card > .card > p{
+    font-size: 22px;
+    line-height: 34px;
+    font-family:  "Fira Sans", sans-serif;  
+    color: white; 
+    margin: 20px 0px;
+}
+.container > footer > .brach-card > .card > p > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.container > footer > .brach-card > .card > p > a:hover{
+    text-decoration: underline;
+}
+.container > footer > .contact {
+    width: 100%;
+    height: 65%;
+    background-color:var(--menu-color);   
+}
+.container > footer > .contact > .contact-data{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 45px;
+    text-align: center;
+}
+.container > footer > .contact > .contact-data > .first-contact{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.container > footer > .contact > .contact-data > .first-contact> li{
+    padding: 5px 12px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container > footer > .contact > .contact-data > .first-contact> li:hover{
+    text-decoration: underline;
+}
+.container > footer > .contact > .contact-data > .first-contact:nth-child(2)> li:hover{
+    text-decoration: none;
+}
+.container > footer > .contact > .contact-data > .achivement > p{
+    margin: 40px 0px;
+}
+.container > footer > .contact > .contact-data > .achivement > img{
+    margin: 15px 10px;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.container > footer > .contact > .contact-data > p{
+    margin: 10px 5px;
+    font-size: 15px;
+}
+.container > footer > .contact > .contact-data > .social-media{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 80px;
+}
+.container > footer > .contact > .contact-data >.social-media > li{
+    margin: 0 5px ;
+}
+.container > footer > .contact > .contact-data > .social-media > li > img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: 0 3px;
+    border: 1px solid rgb(71, 71, 134);
+    margin-top: 20px ;
+}
+.container > footer > .contact > .contact-data > .social-media > li > img:hover{
+    border: 1px solid white;
+}
